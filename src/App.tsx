@@ -31,7 +31,7 @@ export default function App() {
             </div>
             <SimpleGrid
             cols={1}
-            spacing="xs"
+            spacing="xxs"
             className='main-left-list'
             >
               <div>
@@ -102,10 +102,10 @@ export default function App() {
             <Group my="md" align="center">
               <ModalDemo00
                 modalTransition="slide-down"
-                modalTransitionIn={600}
-                modalTransitionOut={600}
+                modalTransitionIn={400}
+                modalTransitionOut={400}
                 modalTransitionFunction="ease"
-                modalOverlayColor="rgba(255,255,255,0.8)"
+                modalOverlayColor="rgba(255,255,255,0.95)"
                 modalButtonLabel="案内モーダル"
               />
               <ModalAlert00
@@ -135,26 +135,18 @@ export default function App() {
             </Group>
             <Text>案内モーダルサンプル</Text>
             <Group my="md" align="center">
-              <ModalDemo02
-                modalTransition="fade"
-                modalTransitionIn={400}
-                modalTransitionOut={200}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="Fade"
-              />
-              <ModalDemo02
+              {/* <ModalDemo02
                 modalTransition="pop"
                 modalTransitionIn={600}
                 modalTransitionOut={300}
                 modalTransitionFunction="ease"
                 modalOverlayColor="rgba(0,0,0,0.6)"
                 modalButtonLabel="Pop"
-              />
+              /> */}
               <ModalDemo02
                 modalTransition="pop"
-                modalTransitionIn={300}
-                modalTransitionOut={80}
+                modalTransitionIn={400}
+                modalTransitionOut={200}
                 modalTransitionFunction="ease"
                 modalOverlayColor="rgba(0,0,0,0.6)"
                 modalButtonLabel="Pop2"
@@ -167,14 +159,22 @@ export default function App() {
                 modalOverlayColor="rgba(0,0,0,0.6)"
                 modalButtonLabel="Slide-up"
               />
-              <ModalDemo02
+              {/* <ModalDemo02
+                modalTransition="slide-up"
+                modalTransitionIn={300}
+                modalTransitionOut={150}
+                modalTransitionFunction="ease"
+                modalOverlayColor="rgba(255,255,255,0.6)"
+                modalButtonLabel="Slide-up"
+              /> */}
+              {/* <ModalDemo02
                 modalTransition="scale"
                 modalTransitionIn={500}
                 modalTransitionOut={400}
                 modalTransitionFunction="ease"
                 modalOverlayColor="rgba(0,0,0,0.6)"
                 modalButtonLabel="scale"
-              />
+              /> */}
               {/* <ModalDemo02
                 modalTransition="skew-up"
                 modalTransitionIn={600}
@@ -195,23 +195,31 @@ export default function App() {
             </Group>
             <Text>確認モーダルサンプル</Text>
             <Group my="md" align="center">
-              <ModalAlert00
+              {/* <ModalAlert00
                 modalTransition="fade"
                 modalTransitionIn={400}
                 modalTransitionOut={200}
                 modalTransitionFunction="ease"
                 modalOverlayColor="rgba(0,0,0,0.6)"
                 modalButtonLabel="Fade"
-              />
-              <ModalAlert00
+              /> */}
+              {/* <ModalAlert00
                 modalTransition="pop"
                 modalTransitionIn={400}
                 modalTransitionOut={200}
                 modalTransitionFunction="ease"
                 modalOverlayColor="rgba(0,0,0,0.6)"
                 modalButtonLabel="Pop"
-              />
+              /> */}
               <ModalAlert00
+                modalTransition="pop"
+                modalTransitionIn={400}
+                modalTransitionOut={200}
+                modalTransitionFunction="ease"
+                modalOverlayColor="rgba(255,255,255,0.7)"
+                modalButtonLabel="Pop"
+              />
+              {/* <ModalAlert00
                 modalTransition="slide-up"
                 modalTransitionIn={300}
                 modalTransitionOut={150}
@@ -226,7 +234,7 @@ export default function App() {
                 modalTransitionFunction="ease"
                 modalOverlayColor="rgba(0,0,0,0.6)"
                 modalButtonLabel="scale"
-              />
+              /> */}
               {/* <ModalAlert00
                 modalTransition="skew-up"
                 modalTransitionIn={600}
@@ -254,7 +262,7 @@ export default function App() {
                 modalOverlayColor="rgba(0,0,0,0.6)"
                 modalButtonLabel="Fade"
               />
-              <ModalFull00
+              {/* <ModalFull00
                 modalTransition="pop"
                 modalTransitionIn={400}
                 modalTransitionOut={200}
@@ -277,7 +285,7 @@ export default function App() {
                 modalTransitionFunction="ease"
                 modalOverlayColor="rgba(0,0,0,0.6)"
                 modalButtonLabel="scale"
-              />
+              /> */}
               {/* <ModalFull00
                 modalTransition="skew-up"
                 modalTransitionIn={600}
@@ -304,7 +312,7 @@ export default function App() {
                 modalOverlayColor="rgba(0,0,0,0.6)"
                 modalButtonLabel="Fade"
               />
-              <ModalFull02
+              {/* <ModalFull02
                 modalTransition="pop"
                 modalTransitionIn={400}
                 modalTransitionOut={200}
@@ -327,7 +335,7 @@ export default function App() {
                 modalTransitionFunction="ease"
                 modalOverlayColor="rgba(0,0,0,0.6)"
                 modalButtonLabel="scale"
-              />
+              /> */}
               {/* <ModalFull02
                 modalTransition="skew-up"
                 modalTransitionIn={600}
