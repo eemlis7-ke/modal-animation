@@ -19,6 +19,7 @@ body {
     font-size: 1rem;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    overflow: hidden;
 }
 #root{
   height: 100%;
@@ -337,5 +338,18 @@ header{
     li{
       padding: 0 0.5rem;
     }
+  }
+}
+
+
+.main-content-suggestion{
+  width: 80%;
+  margin: 1rem auto;
+  border: 3px solid #EEE;
+  padding: 2rem;
+  display: flex;
+  .main-suggestion-box{
+    width: 50%;
+    margin: 1%;
   }
 }

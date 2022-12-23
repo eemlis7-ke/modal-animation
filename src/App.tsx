@@ -133,226 +133,237 @@ export default function App() {
                 modalButtonLabel="全画面80モダール"
               />
             </Group>
-            <Text>案内モーダルサンプル</Text>
-            <Group my="md" align="center">
-              {/* <ModalDemo02
-                modalTransition="pop"
-                modalTransitionIn={600}
-                modalTransitionOut={300}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="Pop"
-              /> */}
-              <ModalDemo02
-                modalTransition="pop"
-                modalTransitionIn={400}
-                modalTransitionOut={200}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="Pop2"
-              />
-              <ModalDemo02
-                modalTransition="slide-up"
-                modalTransitionIn={300}
-                modalTransitionOut={150}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="Slide-up"
-              />
-              {/* <ModalDemo02
-                modalTransition="slide-up"
-                modalTransitionIn={300}
-                modalTransitionOut={150}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(255,255,255,0.6)"
-                modalButtonLabel="Slide-up"
-              /> */}
-              {/* <ModalDemo02
-                modalTransition="scale"
-                modalTransitionIn={500}
-                modalTransitionOut={400}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="scale"
-              /> */}
-              {/* <ModalDemo02
-                modalTransition="skew-up"
-                modalTransitionIn={600}
-                modalTransitionOut={300}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="skew-up"
-              />
-              <ModalDemo02
-                modalTransition="rotate-left"
-                modalTransitionIn={600}
-                modalTransitionOut={300}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="rotate-left"
-              /> */}
-              {/* <ModalDemo03/> */}
-            </Group>
-            <Text>確認モーダルサンプル</Text>
-            <Group my="md" align="center">
-              {/* <ModalAlert00
-                modalTransition="fade"
-                modalTransitionIn={400}
-                modalTransitionOut={200}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="Fade"
-              /> */}
-              {/* <ModalAlert00
-                modalTransition="pop"
-                modalTransitionIn={400}
-                modalTransitionOut={200}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="Pop"
-              /> */}
-              <ModalAlert00
-                modalTransition="pop"
-                modalTransitionIn={400}
-                modalTransitionOut={200}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(255,255,255,0.7)"
-                modalButtonLabel="Pop"
-              />
-              {/* <ModalAlert00
-                modalTransition="slide-up"
-                modalTransitionIn={300}
-                modalTransitionOut={150}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="Slide-up"
-              />
-              <ModalAlert00
-                modalTransition="scale"
-                modalTransitionIn={500}
-                modalTransitionOut={400}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="scale"
-              /> */}
-              {/* <ModalAlert00
-                modalTransition="skew-up"
-                modalTransitionIn={600}
-                modalTransitionOut={300}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="skew-up"
-              />
-              <ModalAlert00
-                modalTransition="rotate-left"
-                modalTransitionIn={600}
-                modalTransitionOut={300}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="rotate-left"
-              /> */}
-            </Group>
-            <Text>全画面モーダルサンプル</Text>
-            <Group my="md" align="center">
-              <ModalFull00
-                modalTransition="fade"
-                modalTransitionIn={400}
-                modalTransitionOut={200}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="Fade"
-              />
-              {/* <ModalFull00
-                modalTransition="pop"
-                modalTransitionIn={400}
-                modalTransitionOut={200}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="Pop"
-              />
-              <ModalFull00
-                modalTransition="slide-up"
-                modalTransitionIn={300}
-                modalTransitionOut={150}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="Slide-up"
-              />
-              <ModalFull00
-                modalTransition="scale"
-                modalTransitionIn={500}
-                modalTransitionOut={400}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="scale"
-              /> */}
-              {/* <ModalFull00
-                modalTransition="skew-up"
-                modalTransitionIn={600}
-                modalTransitionOut={300}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="skew-up"
-              />
-              <ModalFull00
-                modalTransition="rotate-left"
-                modalTransitionIn={600}
-                modalTransitionOut={300}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="rotate-left"
-              /> */}
-            </Group>
-            <Group my="md" align="center">
-              <ModalFull02
-                modalTransition="fade"
-                modalTransitionIn={400}
-                modalTransitionOut={200}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="Fade"
-              />
-              {/* <ModalFull02
-                modalTransition="pop"
-                modalTransitionIn={400}
-                modalTransitionOut={200}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="Pop"
-              />
-              <ModalFull02
-                modalTransition="slide-up"
-                modalTransitionIn={300}
-                modalTransitionOut={150}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="Slide-up"
-              />
-              <ModalFull02
-                modalTransition="scale"
-                modalTransitionIn={500}
-                modalTransitionOut={400}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="scale"
-              /> */}
-              {/* <ModalFull02
-                modalTransition="skew-up"
-                modalTransitionIn={600}
-                modalTransitionOut={300}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="skew-up"
-              />
-              <ModalFull02
-                modalTransition="rotate-left"
-                modalTransitionIn={600}
-                modalTransitionOut={300}
-                modalTransitionFunction="ease"
-                modalOverlayColor="rgba(0,0,0,0.6)"
-                modalButtonLabel="rotate-left"
-              /> */}
-            </Group>
+            <div className='main-content-suggestion'>
+              <div className='main-suggestion-box'>
+                <Text>案内モーダル</Text>
+                <Group my="md" align="center">
+                  {/* <ModalDemo02
+                    modalTransition="pop"
+                    modalTransitionIn={600}
+                    modalTransitionOut={300}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="Pop"
+                  /> */}
+                  <ModalDemo02
+                    modalTransition="pop"
+                    modalTransitionIn={400}
+                    modalTransitionOut={200}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="Pop2"
+                  />
+                  <ModalDemo02
+                    modalTransition="slide-up"
+                    modalTransitionIn={300}
+                    modalTransitionOut={150}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="Slide-up"
+                  />
+                  {/* <ModalDemo02
+                    modalTransition="slide-up"
+                    modalTransitionIn={300}
+                    modalTransitionOut={150}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(255,255,255,0.6)"
+                    modalButtonLabel="Slide-up"
+                  /> */}
+                  {/* <ModalDemo02
+                    modalTransition="scale"
+                    modalTransitionIn={500}
+                    modalTransitionOut={400}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="scale"
+                  /> */}
+                  {/* <ModalDemo02
+                    modalTransition="skew-up"
+                    modalTransitionIn={600}
+                    modalTransitionOut={300}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="skew-up"
+                  />
+                  <ModalDemo02
+                    modalTransition="rotate-left"
+                    modalTransitionIn={600}
+                    modalTransitionOut={300}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="rotate-left"
+                  /> */}
+                  {/* <ModalDemo03/> */}
+                </Group>
+              </div>
+              <div className='main-suggestion-box'>
+                <Text>確認モーダル</Text>
+                <Group my="md" align="center">
+                  {/* <ModalAlert00
+                    modalTransition="fade"
+                    modalTransitionIn={400}
+                    modalTransitionOut={200}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="Fade"
+                  /> */}
+                  {/* <ModalAlert00
+                    modalTransition="pop"
+                    modalTransitionIn={400}
+                    modalTransitionOut={200}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="Pop"
+                  /> */}
+                  <ModalAlert00
+                    modalTransition="pop"
+                    modalTransitionIn={400}
+                    modalTransitionOut={200}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(255,255,255,0.7)"
+                    modalButtonLabel="Pop"
+                  />
+                  {/* <ModalAlert00
+                    modalTransition="slide-up"
+                    modalTransitionIn={300}
+                    modalTransitionOut={150}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="Slide-up"
+                  />
+                  <ModalAlert00
+                    modalTransition="scale"
+                    modalTransitionIn={500}
+                    modalTransitionOut={400}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="scale"
+                  /> */}
+                  {/* <ModalAlert00
+                    modalTransition="skew-up"
+                    modalTransitionIn={600}
+                    modalTransitionOut={300}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="skew-up"
+                  />
+                  <ModalAlert00
+                    modalTransition="rotate-left"
+                    modalTransitionIn={600}
+                    modalTransitionOut={300}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="rotate-left"
+                  /> */}
+                </Group>
+              </div>
+              <div className='main-suggestion-box'>
+                <Text>全画面モーダル</Text>
+                <Group my="md" align="center">
+                  <ModalFull00
+                    modalTransition="fade"
+                    modalTransitionIn={400}
+                    modalTransitionOut={200}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="Fade"
+                  />
+                  {/* <ModalFull00
+                    modalTransition="pop"
+                    modalTransitionIn={400}
+                    modalTransitionOut={200}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="Pop"
+                  />
+                  <ModalFull00
+                    modalTransition="slide-up"
+                    modalTransitionIn={300}
+                    modalTransitionOut={150}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="Slide-up"
+                  />
+                  <ModalFull00
+                    modalTransition="scale"
+                    modalTransitionIn={500}
+                    modalTransitionOut={400}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="scale"
+                  /> */}
+                  {/* <ModalFull00
+                    modalTransition="skew-up"
+                    modalTransitionIn={600}
+                    modalTransitionOut={300}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="skew-up"
+                  />
+                  <ModalFull00
+                    modalTransition="rotate-left"
+                    modalTransitionIn={600}
+                    modalTransitionOut={300}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="rotate-left"
+                  /> */}
+                </Group>
+                </div>
+              <div className='main-suggestion-box'>
+                <Text>全画面80モーダル</Text>
+                <Group my="md" align="center">
+                  <ModalFull02
+                    modalTransition="fade"
+                    modalTransitionIn={400}
+                    modalTransitionOut={200}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="Fade"
+                  />
+                  {/* <ModalFull02
+                    modalTransition="pop"
+                    modalTransitionIn={400}
+                    modalTransitionOut={200}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="Pop"
+                  />
+                  <ModalFull02
+                    modalTransition="slide-up"
+                    modalTransitionIn={300}
+                    modalTransitionOut={150}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="Slide-up"
+                  />
+                  <ModalFull02
+                    modalTransition="scale"
+                    modalTransitionIn={500}
+                    modalTransitionOut={400}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="scale"
+                  /> */}
+                  {/* <ModalFull02
+                    modalTransition="skew-up"
+                    modalTransitionIn={600}
+                    modalTransitionOut={300}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="skew-up"
+                  />
+                  <ModalFull02
+                    modalTransition="rotate-left"
+                    modalTransitionIn={600}
+                    modalTransitionOut={300}
+                    modalTransitionFunction="ease"
+                    modalOverlayColor="rgba(0,0,0,0.6)"
+                    modalButtonLabel="rotate-left"
+                  /> */}
+                </Group>
+              </div>
+            </div>
           </div>
           <div className='main-rigth'>
             <div className='main-rigth-heading'>アクティビティ</div>
