@@ -31,7 +31,6 @@ export default function App() {
             </div>
             <SimpleGrid
             cols={1}
-            spacing="xxs"
             className='main-left-list'
             >
               <div>

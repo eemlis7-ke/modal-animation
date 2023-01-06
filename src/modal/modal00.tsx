@@ -4,7 +4,7 @@ import TabDemo from '../tabs';
 
 
 type Props = {
-  modalTransition: string
+  modalTransition?: string
   modalTransitionIn: number
   modalTransitionOut: number
   modalTransitionFunction: string
