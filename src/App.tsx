@@ -29,7 +29,7 @@ export default function App() {
                 全てのドキュメント
               </Button>
             </div>
-            <SimpleGrid
+            {/* <SimpleGrid
             cols={1}
             className='main-left-list'
             >
@@ -82,7 +82,7 @@ export default function App() {
                   完了
                 </Button>
               </div>
-            </SimpleGrid>
+            </SimpleGrid> */}
             <div>
                 <Button leftIcon={<IconDatabase size={14} />} variant="subtle" color="dark">
                   タグから探す
@@ -134,7 +134,7 @@ export default function App() {
             </Group>
             <div className='main-content-suggestion'>
               <div className='main-suggestion-box'>
-                <Text>案内モーダル</Text>
+                <Text>新案内モーダル</Text>
                 <Group my="md" align="center">
                   {/* <ModalDemo02
                     modalTransition="pop"
@@ -196,7 +196,7 @@ export default function App() {
                 </Group>
               </div>
               <div className='main-suggestion-box'>
-                <Text>確認モーダル</Text>
+                <Text>新確認モーダル</Text>
                 <Group my="md" align="center">
                   {/* <ModalAlert00
                     modalTransition="fade"
@@ -257,7 +257,7 @@ export default function App() {
                 </Group>
               </div>
               <div className='main-suggestion-box'>
-                <Text>全画面モーダル</Text>
+                <Text>新全画面モーダル</Text>
                 <Group my="md" align="center">
                   <ModalFull00
                     modalTransition="fade"
@@ -310,7 +310,7 @@ export default function App() {
                 </Group>
                 </div>
               <div className='main-suggestion-box'>
-                <Text>全画面80モーダル</Text>
+                <Text>新全画面80モーダル</Text>
                 <Group my="md" align="center">
                   <ModalFull02
                     modalTransition="fade"

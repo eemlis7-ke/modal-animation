@@ -21,7 +21,7 @@ export const ModalDemo00: React.FC<Props> = memo((props) => {
       <Modal
         opened={opened}
         onClose={() => setOpened(false)}
-        title="もっと便利になりました！新しいLAWGUEをぜひ体験してください"
+        title="もっと便利になりました！"
         size={800}
         transition={props.modalTransition}
         transitionDuration={props.modalTransitionIn}
